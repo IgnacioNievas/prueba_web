@@ -1,0 +1,161 @@
+.vi {
+    height: 50px;
+    border-radius: 5px;
+    background-color: navy;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s;
+    position: relative;
+    left: 800px;
+}
+
+.vi:hover {
+    background-color: green;
+}
+
+#x:hover {
+    transform: rotate(360deg);
+}
+
+#n:hover {
+    transform: rotate(360deg);
+}
+
+#v:hover {
+    transform: rotateX(360deg);
+}
+
+#g:hover {
+    transform: rotateX(360deg);
+}
+
+#m:hover {
+    transform: rotateY(360deg);
+}
+
+#c:hover {
+    transform: rotateY(360deg);
+}
+
+.vi span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.vi span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.vi:hover span {
+    padding-right: 25px;
+}
+
+.vi:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.v {
+    height: 50px;
+    border-radius: 5px;
+    background-color: navy;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s;
+    position: relative;
+    right: 100px;
+}
+
+.v:hover {
+    background-color: red;
+}
+
+.v span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.v span:before {
+    content: '\00ab';
+    position: relative;
+    opacity: 0;
+    left: -20px;
+    transition: 0.5s;
+}
+
+.v:hover span {
+    padding-left: 25px;
+}
+
+.v:hover span:before {
+    opacity: 1;
+}
+
+body {
+    position: relative;
+    left: 200px;
+    width: 600px;
+    height: 600px;
+    background: url(ftos/foto2.jpg);
+}
+
+.m {
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    text-align: left;
+    text-decoration-color: brown;
+    color: darkred;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vie {
+    height: 50px;
+    border-radius: 5px;
+    background-color: navy;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    transition: all 0.5s;
+    position: relative;
+    left: 800px;
+}
+
+.vie:hover {
+    background-color: gold;
+    color: black;
+}
+
+.vie span {
+    position: relative;
+    transition: 0.5s;
+}
+
+.vie:hover span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.vie:hover span {
+    padding-right: 25px;
+}
+
+.vie:hover span:after {
+    opacity: 1;
+    right: 0;
+}
