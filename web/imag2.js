@@ -27,4 +27,4 @@ var vsb = document.createElement('img');
 vsb.src = 'ftos/foto8.jpg';
 vsb.width = 50;
 document.body.appendChild(vsb);
-vsb.addEventListener('click', () => { this.location = 'https://github.com/IgnacioNievas/calculadora' });
+vsb.addEventListener('click', () => { this.location = 'https://github.com/IgnacioNievas' });

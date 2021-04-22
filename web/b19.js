@@ -1,8 +1,8 @@
 const e = document.getElementById('m');
-e.addEventListener('click', () => { this.location = 'web19.html'; });
+e.addEventListener('click', () => { window.location = 'web19.html'; });
 'use strict'
 const ne = document.getElementById('c');
-ne.addEventListener('click', () => { this.location = 'web21.html'; });
+ne.addEventListener('click', () => { window.location = 'web21.html'; });
 
 const mv = document.getElementById('me');
 mv.addEventListener('ended', () => {

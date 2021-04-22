@@ -6,7 +6,7 @@ const v = document.getElementById('on');
 v.addEventListener('click', () => { window.location = 'https://www.youtube.com/watch?v=8lp20JFiB4s'; })
     // *boton Cambiar el contenido :
 const ver = document.getElementById('o');
-ver.addEventListener('click', () => { this.location = 'web2.html'; });
+ver.addEventListener('click', () => { window.location = 'web2.html'; });
 // *boton Programación Web Full Stack :
 const ve = document.getElementById("Bo");
 ve.addEventListener('click',

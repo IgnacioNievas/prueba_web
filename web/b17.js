@@ -1,8 +1,8 @@
 'use strict'
 const e = document.getElementById('g');
-e.addEventListener('click', () => { this.location = 'web17.html'; });
+e.addEventListener('click', () => { window.location = 'web17.html'; });
 const ne = document.getElementById('v');
-ne.addEventListener('click', () => { this.location = 'web19.html'; });
+ne.addEventListener('click', () => { window.location = 'web19.html'; });
 
 const mv = document.getElementById('me');
 mv.addEventListener('ended', () => {
